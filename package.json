@@ -12,7 +12,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "add-details": "pwsh -File ./scripts/add-details.ps1",
-    "add-skills": "pwsh -File ./scripts/add-skills.ps1"
+    "add-skills": "pwsh -File ./scripts/add-skills.ps1",
+    "add-project": "pwsh -File ./scripts/add-project.ps1"
   },
   "dependencies": {
     "react": "^18.2.0",
