@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "add-details": "pwsh -File ./scripts/add-details.ps1"
+    "add-details": "pwsh -File ./scripts/add-details.ps1",
+    "add-skills": "pwsh -File ./scripts/add-skills.ps1"
   },
   "dependencies": {
     "react": "^18.2.0",

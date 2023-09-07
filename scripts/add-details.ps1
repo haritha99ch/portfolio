@@ -48,3 +48,5 @@ $json = $userInput | ConvertTo-Json
 
 # Write the JSON object to a file
 Set-Content -Path "$userDataDir/userDetails.json" -Value $json
+
+Write-Host "User details saved to skills.json"
