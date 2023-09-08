@@ -1,6 +1,7 @@
 @tailwind base;
 html {
     scroll-behavior: smooth;
+    --line-color: rgb(219 65 5 / 0.3);
   }
 @tailwind components;
 @tailwind utilities;

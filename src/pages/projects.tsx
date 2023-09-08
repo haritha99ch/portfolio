@@ -20,7 +20,7 @@ const Projects = () => {
     }, [inView, setSection]);
 
   return (
-    <section id="Projects" className="scroll-mt-10"
+    <section id="Projects" className="scroll-mt-28 mb-28"
     ref={ref}>
         <SectionHeading>Projects</SectionHeading>
         <div>
