@@ -1,0 +1,13 @@
+{
+  "techStack": [
+    ".NET",
+    " C#",
+    " ASP.NET",
+    " Blazor WASM",
+    " WinUi3"
+  ],
+  "imagePath": "userData/projects/Food Desire/foodDesire - Github social image.png",
+  "githubUrl": "https://github.com/haritha99ch/FoodDesire",
+  "description": "An Online Food Ordering System for PUSL3119 Computing Project. This project contains the implementation of Entity Framework and clear application architecture in .NET.",
+  "name": "Food Desire"
+}

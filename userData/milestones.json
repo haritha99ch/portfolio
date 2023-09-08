@@ -1,0 +1,20 @@
+{
+  "milestones": [
+    {
+      "start": "2018",
+      "type": "education",
+      "description": "",
+      "where": "Central Collage Bandarawela, Sri Lanka",
+      "end": "2019",
+      "what": "G.C.E. Advance Level"
+    },
+    {
+      "end": "2023-12",
+      "start": "2020-03",
+      "description": "Awarded Second class honours upper Division",
+      "type": "education",
+      "what": "BSc (Hons) in Computer Science",
+      "where": "University Of Plymouth"
+    }
+  ]
+}
