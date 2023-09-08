@@ -3,6 +3,7 @@ import Header from './components/header'
 import SectionDivider from './components/sectionDivider'
 import About from './pages/about'
 import Intro from './pages/intro'
+import Projects from './pages/projects'
 
 function App() {
 
@@ -16,6 +17,8 @@ function App() {
         <Intro/>
         <SectionDivider/>
         <About/>
+        <SectionDivider/>
+        <Projects/>
       </div>
     </div>
   )
