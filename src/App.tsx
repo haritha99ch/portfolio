@@ -5,6 +5,7 @@ import ActiveSection from './contexts/activeSection'
 import About from './pages/about'
 import Intro from './pages/intro'
 import Projects from './pages/projects'
+import Skills from './pages/skills'
 
 function App() {
 
@@ -19,6 +20,8 @@ function App() {
           <Intro/>
           <SectionDivider/>
           <About/>
+          <SectionDivider/>
+          <Skills/>
           <SectionDivider/>
           <Projects/>
         </ActiveSection>
