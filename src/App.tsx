@@ -1,5 +1,7 @@
 import './App.css'
 import Header from './components/header'
+import SectionDivider from './components/sectionDivider'
+import About from './pages/about'
 import Intro from './pages/intro'
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <div className="flex flex-col items-center px-4 pt-28 sm:pt-36">
         <Header/>
         <Intro/>
+        <SectionDivider/>
+        <About/>
       </div>
     </div>
   )
