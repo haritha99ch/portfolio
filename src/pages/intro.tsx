@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import userDetails from '../models/userDetails';
 import { BsEnvelope, BsGithub, BsLinkedin, BsPersonBadgeFill } from 'react-icons/bs';
+import { useInView } from 'react-intersection-observer';
+import { UseActiveSection } from '../contexts/activeSection';
 
 const Intro = () => {
   const [user, setUser] = useState<userDetails | null>(null);
@@ -11,8 +13,16 @@ const Intro = () => {
       .then((data) => setUser(data));
   }, []);
 
+  const {ref, inView} = useInView({threshold: 0.5});
+  const {setSection} = UseActiveSection();
+  useEffect(() => {
+    if(inView) setSection("Intro");
+  }, [inView, setSection]);
+
+
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section className="mb-28 max-w-[50rem] text-center sm:mb-0 pt-28 sm:pt-36 sm:pb-36" id="Intro"
+    ref={ref}>
       <div className="flex items-center justify-center">
         <div>
           {user && (

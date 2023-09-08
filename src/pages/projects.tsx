@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import SectionHeading from '../components/sectionHeading'
 import projects from '../models/projects';
 import Project from '../components/project';
+import { useInView } from 'react-intersection-observer';
+import { UseActiveSection } from '../contexts/activeSection';
 
 const Projects = () => {
     const [projectsList, setProjects] = useState<projects | null>(null);
@@ -11,9 +13,15 @@ const Projects = () => {
             .then((data) => setProjects(data));
     }, []);
 
+    const {ref, inView} = useInView();
+    const {setSection} = UseActiveSection();
+    useEffect(() => {
+      if(inView) setSection("Projects");
+    }, [inView, setSection]);
 
   return (
-    <section>
+    <section id="Projects" className="scroll-mt-10"
+    ref={ref}>
         <SectionHeading>Projects</SectionHeading>
         <div>
             {

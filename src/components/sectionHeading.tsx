@@ -4,7 +4,7 @@ const sectionHeading = ({children}:{
     children: ReactNode
 }) => {
   return (
-    <h2 className="text-3xl font-medium capitalize mb-8 text-center">{children}</h2>
+    <h2 className="text-3xl font-medium capitalize mb-8 text-center pt-28 sm:pt-36">{children}</h2>
   )
 }
 
