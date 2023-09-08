@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navli{
+    @apply h-3/4 flex items-center justify-center;
+}
+
+.navhref{
+    @apply flex w-full items-center justify-center px-3 py-3 hover:text-gray-600 transition;
+}
