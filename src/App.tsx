@@ -8,6 +8,7 @@ import Intro from './pages/intro'
 import Projects from './pages/projects'
 import Skills from './pages/skills'
 import Contact from './pages/contact'
+import Footer from './components/footer'
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
             <SectionDivider/>
             <Contact/>
           </div>
+          <Footer/>
         </ActiveSection>
       </div>
     </div>

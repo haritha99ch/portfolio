@@ -14,7 +14,7 @@ const Contact = () => {
   const {ref, inView} = useInView({threshold: 0.5});
   const {setSection} = UseActiveSection();
   useEffect(() => {
-    if(inView) setSection("Skills");
+    if(inView) setSection("Contact");
   }, [inView, setSection]);
   
   return (
