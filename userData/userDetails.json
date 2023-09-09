@@ -1,11 +1,11 @@
 {
-  "greatingQuote": "Hello there!",
-  "profilePicture": "userData/Screenshot 2023-09-07 114959.png",
-  "moreAbout": "robust design patterns, and meticulous version control practices.\r\nAs I eagerly anticipate my upcoming convocation this December, I bring with me a comprehensive understanding of software\r\nengineering principles and a dedication to continuous learning. My coursework and hands-on experience have equipped me\r\nwith the ability to create efficient and scalable software solutions that meet real-world business needs.",
-  "email": "haritha.cr@outlook.com",
+  "moreAbout": "I am a highly motivated Computer Science undergraduate with strong and proven proficiency in .NET development. Throughout my academic journey, I have honed my skills to develop industry-standard applications with a focus on clean architecture, robust design patterns, and meticulous version control practices. As I eagerly anticipate my upcoming convocation this December, I bring with me a comprehensive understanding of software engineering principles and a dedication to continuous learning. My coursework and hands-on experience have equipped me with the ability to create efficient and scalable software solutions that meet real-world business needs.",
+  "linkedIn": "https://www.linkedin.com/in/haritha-rathnayake-691bb91a0",
   "cv": "userData/Haritha Rathnayake.pdf",
-  "about": "I am a highly motivatedComputer Science Undergraduatewith a strong and proven proficiency in .NETdevelopment.",
-  "name": "Haritha Rathnayake",
+  "greatingQuote": "Hello there",
   "github": "https://github.com/haritha99ch",
-  "linkedIn": "https://www.linkedin.com/in/haritha-rathnayake-691bb91a0/"
+  "name": "Haritha Rathnayake",
+  "email": "haritha.cr@outlook.com",
+  "profilePicture": "userData/corpo.png",
+  "about": "I am a highly motivated Computer Science undergraduate with strong and proven proficiency in .NET development."
 }

@@ -1,7 +1,7 @@
 {
   "imagePath": "userData/projects/Crime Watch/crime watch.jpg",
   "name": "Crime Watch",
-  "description": "Crime Watch is an innovative web application that offers a unique solution to the problem of crime. It allows citizens to report any criminal activities or illegal incidents they witness directly to the proper authorities for investigation and judgment. This provides an effective way for law enforcement officials to investigate and judge the outcome of these reported crimes, as well as providing peace of mind for those who have witnessed them.",
+  "description": "An incidents management system that allows citizens to report any criminal activities or illegal incidents they witness directly to the proper authorities for investigation and judgment.",
   "techStack": [
     "MEAN",
     " MongoDb",
