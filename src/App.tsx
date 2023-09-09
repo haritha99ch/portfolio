@@ -7,6 +7,7 @@ import About from './pages/about'
 import Intro from './pages/intro'
 import Projects from './pages/projects'
 import Skills from './pages/skills'
+import Contact from './pages/contact'
 
 function App() {
 
@@ -28,7 +29,11 @@ function App() {
             <Projects/>
             <SectionDivider/>
           </div>
-            <Milestones/>
+          <Milestones/>
+          <div className="flex flex-col items-center px-4">
+            <SectionDivider/>
+            <Contact/>
+          </div>
         </ActiveSection>
       </div>
     </div>
