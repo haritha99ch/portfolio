@@ -31,6 +31,7 @@ const Intro = () => {
               width="192"
               height="192"
               property="true"
+              alt="Profile Picture"
               className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover"
             />
           )}
@@ -44,8 +45,8 @@ const Intro = () => {
       <div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">
         <a href="#Contact" className="intro-btn">Contact Me <BsEnvelope/> </a>
         <a href={user?.cv} className="intro-btn">Download CV <BsPersonBadgeFill/></a>
-        <a href={user?.linkedIn} className="intro-btn"><BsLinkedin/></a>
-        <a href={user?.github} className="intro-btn"><BsGithub/></a>
+        <a title='linkedin' href={user?.linkedIn} className="intro-btn"><BsLinkedin/></a>
+        <a title='github' href={user?.github} className="intro-btn"><BsGithub/></a>
       </div>
     </section>
   );

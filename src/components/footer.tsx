@@ -2,7 +2,7 @@ import { BsGithub } from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <footer className='py-2 px-4 text-center text-gray-500 bg-red-50'>
+    <footer className='py-2 px-4 text-center text-gray-500 bg-red-50 dark:dark-mode-bg-tertiary dark:dark-mode-text-tertiary'>
         <small className='mb-2 text-xs'>
             &copy; {new Date().getFullYear()} - All rights reserved
         </small>

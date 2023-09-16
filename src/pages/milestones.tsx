@@ -6,8 +6,10 @@ import 'react-vertical-timeline-component/style.min.css';
 import { FaGraduationCap, FaBriefcase } from 'react-icons/fa';
 import { useInView } from 'react-intersection-observer';
 import { UseActiveSection } from '../contexts/activeSection';
+import { UseThemeContextProvider } from '../providers/ThemeContextProvider';
 
 const Eilestones = () => {
+    const {theme} = UseThemeContextProvider();
     const [milestones, setMilestones] = useState<Milestones>()
     useEffect(() => {
         getMilestones()
@@ -27,23 +29,23 @@ const Eilestones = () => {
                 <Fragment key={index}>
                     <VerticalTimelineElement 
                         contentStyle={{
-                            background: "#f3f4f6",
+                            background: theme === "light"? "#f3f4f6" : "#1a1a1a",
                             boxShadow: "nono",
                             border: "1px solid rgba(0,0,0, 0.05)",
                             padding: "1.3rem, 2rem",
                         }}
                         contentArrowStyle={{
-                            borderRight: "7px solid  #f3f4f6"
+                            borderRight: "7px solid  #DB4105"
                         }}
                         date={milestone.start.toString()}
                         icon={milestone.type === "education" ? <FaGraduationCap /> : <FaBriefcase/>}
                         iconStyle={{
-                            background: "white",
+                            background: theme === "light"? "#f3f4f6" : "#1a1a1a",
                             fontSize: "1.5rem",
                         }}>
                         <h3 className="font-semibold capitalize">{milestone.what}</h3>
                         <p className="!font-normal !mt-0">{milestone.where}</p>
-                        <p className="!mt-1 !font-normal text-gray-700">{milestone.description}</p>
+                        <p className="!mt-1 !font-normal text-gray-700 dark:dark-mode-text-secondary">{milestone.description}</p>
                     </VerticalTimelineElement>
                 </Fragment>
             ))}

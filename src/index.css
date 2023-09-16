@@ -6,6 +6,36 @@ html {
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+    .dark-mode-bg-primary{
+        @apply bg-[#383838] transition;
+      }
+    
+      .dark-mode-bg-secondary{
+        @apply bg-[#303030] transition;
+      }
+    
+      .dark-mode-bg-tertiary{
+        @apply bg-[#1a1a1a] transition;
+      }
+    
+      .dark-mode-text-primary{
+        @apply text-gray-50 transition;
+      }
+    
+      .dark-mode-text-secondary{
+        @apply text-gray-200 transition;
+      }
+    
+      .dark-mode-text-tertiary{
+        @apply text-gray-300 transition;
+      }
+}
+
+.theme-switcher {
+    @apply fixed bottom-5 right-5 bg-white w-[3rem] h-[3rem] bg-opacity-80 backdrop-blur-[0.5rem] border border-white border-opacity-40 shadow-2xl rounded-full flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all dark:dark-mode-bg-secondary text-gray-900 dark:dark-mode-text-primary;
+  }
+
 .navli{
     @apply h-3/4 flex items-center justify-center;
 }
@@ -16,4 +46,8 @@ html {
 
 .intro-btn{
     @apply bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full hover:scale-110 hover:bg-gray-950 active:scale-105 transition;
+}
+
+.active-section{
+    @apply text-orange-700 dark:text-orange-500
 }
