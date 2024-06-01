@@ -15,6 +15,14 @@
       "type": "education",
       "what": "BSc (Hons) in Computer Science",
       "where": "University Of Plymouth"
+    },
+    {
+      "end": "",
+      "start": "2023-12-04",
+      "description": ".NET Back-end developer",
+      "type": "job",
+      "what": "Software Engineer Intern",
+      "where": "InEight Sri Lanka"
     }
   ]
 }
