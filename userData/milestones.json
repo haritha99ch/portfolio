@@ -17,11 +17,19 @@
       "where": "University Of Plymouth"
     },
     {
-      "end": "",
-      "start": "December 4, 2023 - Present",
+      "end": "February 28, 2025",
+      "start": "December 4, 2023",
       "description": ".NET Back-end developer",
       "type": "job",
       "what": "Software Engineer Intern",
+      "where": "InEight Sri Lanka"
+    },
+    {
+      "end": "",
+      "start": "March 1, 2025 - Present",
+      "description": ".NET Full-Stack developer",
+      "type": "job",
+      "what": "Software Engineer",
       "where": "InEight Sri Lanka"
     }
   ]
